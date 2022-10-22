@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:Metropolis;
+    src: url(../font/Metropolis/Metropolis-Bold.otf);
+    font-family: opensanshebrew;
+    src: url(../font/opensanshebrewcondensed/OpenSansHebrewCondensed-Bold.ttf);
+}
+.container{
+    background-image: url('/Sites/hgsmart.com/img/bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.container--area{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo img{
+    width: 200px;
+    margin-top: 4rem;
+}
+.titulo{
+    width: 100%;
+}
+.titulo h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: opensanshebrew;
+    font-weight: 800;
+    font-size: 5rem;
+    color:aliceblue;
+    letter-spacing: 12px;
+    margin-top: 2rem;
+    line-height: 60px;
+    background-color:;
+}
+.subtitulo{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: metropolis;
+    font-weight: 400;
+    letter-spacing: 7px;
+    font-size: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.loading{
+    width: 400px;
+    margin-top: 1rem;
+}
+.loading--area{
+    background-color: #CFCCCA;
+    width: 400px;
+    font-family: metropolis;
+}
+.loading--area--porce{
+    background-color: #01c0ec;
+    width: 68%;
+    text-align: end;
+    font-family: metropolis;
+    color: aliceblue;
+}
+.porce--area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.loading--area--porce{
+    padding: 0.1rem;
+}
+.porce--area-0{
+    font-family: metropolis;
+    color: aliceblue;
+}
+.porce--area-100{
+    font-family: metropolis;
+    color: aliceblue;
+}
+
+
+.icon{
+    margin-top:3rem;
+}
+.icon-titulo{
+    color: aliceblue;
+    font-family: metropolis;
+    font-weight: 700;
+    text-align: center;
+}
+.icon--area{
+    display: flex;
+    margin: 1rem;
+}
+.icon--area img{
+    width: 5rem;
+    margin: 1rem;
+}
+
+
+
+.copy{
+    font-family: opensanshebrew;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    background-color: ;
+    width: 100%;
+    text-align: center;
+    border-top: 0.5px solid rgba(204, 204, 204, 0.151);
+    color:rgba(202, 202, 202, 0.151) ;
+}
+
+
+@media (max-width:320px) {
+    .titulo h1{
+        font-size: 200%;
+        line-height: 110%;
+    }
+    .subtitulo{
+        font-size: 0.5rem;
+        margin-top: 2rem;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+    .loading{
+        width: 220px;
+    }
+    .loading--area{
+        width: 220px;
+    }
+    .icon--area img{
+        width: 2rem;
+        margin: 1rem;
+    }
+    .copy{
+        position: absolute;
+        bottom:0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.6rem;
+    }
+    .copy span{
+        font-weight: 100;
+        font-size:0.6rem;
+    }
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .titulo h1{
+        font-size: 200%;
+        line-height: 110%;
+    }
+    .subtitulo{
+        font-size: 0.6rem;
+        margin-top: 2rem;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+    .loading{
+        max-width: 320px;
+    }
+    .loading--area{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .icon--area img{
+        width: 2rem;
+        margin: 1rem;
+    }
+    .copy{
+        position: absolute;
+        bottom:0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.6rem;
+    }
+    .copy span{
+        font-weight: 100;
+        font-size:0.6rem;
+    }
+}
+}
